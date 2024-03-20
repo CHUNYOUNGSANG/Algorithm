@@ -7,7 +7,7 @@ public class No2753_leap_year {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();   // 사용자로부터 정수를 입력
 
-        if ((a % 4 == 0) && (a % 100 != 0) || (a % 400 == 0)) { // 입력된 년도가 운년인지 확인한다.
+        if ((a % 4 == 0) && (a % 100 != 0) || (a % 400 == 0)) { // 입력된 년도가 운년인지 확인
             System.out.println("1");    // 만약 년도가 4로 나누어떨어지고 100으로 나누어떨어지지 않거나 400으로 나누어떨어진다면, 윤년이다.
         } else {
             System.out.println("0");    // 그렇지 않으면, 윤년이 아니다.
