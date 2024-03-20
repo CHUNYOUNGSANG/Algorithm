@@ -16,7 +16,7 @@ public class No14681_Quaternary_picking {
             System.out.println("2");    // "2"를 출력 (제 2사분면)
         } else if (x < 0 && y < 0) {    // x, y가 모두 음수라면
             System.out.println("3");    // "3"을 출력 (제 3사분면)
-        } else {    // 그 외의 경우, x가 양수이거나 음수, y가 0이거나 음수인 경우
+        } else {    // 그 외, x가 양수이거나 음수, y가 0이거나 음수인 경우
             System.out.println("4");    // "4"를 출력 (제 4사분면)
         }
         sc.close(); // 시스템 자원 누수를 방지하기 위해 Scanner 개체를 닫는다.
