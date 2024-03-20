@@ -1,8 +1,9 @@
-package 백준.자바.조건문.두_수_비교하기_1330;
+package baekjoon.java.conditional_statement;
+
 
 import java.util.Scanner;
 
-public class Main {
+public class No1330_Comparing_head_to_head {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
 
@@ -43,3 +44,5 @@ public class Main {
  예제입력 3 : 5 5
  예제출력 3 : ==
  */
+
+

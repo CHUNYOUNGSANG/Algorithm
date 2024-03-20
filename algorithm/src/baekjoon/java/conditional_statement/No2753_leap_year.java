@@ -1,8 +1,8 @@
-package 백준.자바.조건문.윤년_2753;
+package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class Main {
+public class No2753_leap_year {
     public static void main(String[] args) {    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();   // 사용자로부터 정수를 입력
@@ -32,3 +32,4 @@ public class Main {
  예제입력 2 : 1999
  예제출력 2 : 0
  */
+

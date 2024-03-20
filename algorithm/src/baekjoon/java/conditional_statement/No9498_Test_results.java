@@ -1,8 +1,8 @@
-package 백준.자바.조건문.시험_성적_9498;
+package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class Main {
+public class No9498_Test_results {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
         int a = sc.nextInt();   // 사용자로부터 정수를 입력받아 변수 a에 저장
@@ -32,3 +32,5 @@ public class Main {
  예제 입력 1 : 100
  예제 출력 1 : A
  */
+
+
