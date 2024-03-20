@@ -16,7 +16,7 @@ public class No1330_Comparing_head_to_head {
             System.out.println("<");    // "<"를 출력
         } else {
             boolean a = A == B; {   // 그 외, A와 B가 같다면
-                System.out.println("==");   // "=="를 출력합니다.
+                System.out.println("==");   // "=="를 출력
             }
         }
         sc.close(); // 시스템 자원 누수를 방지하기 위해 Scanner 개체를 닫는다.
