@@ -11,7 +11,7 @@ public class No1330_Comparing_head_to_head {
         int B = sc.nextInt();   // 두 번째 정수를 입력받아 변수 B에 저장
 
         if (A > B) {    // 만약 A가 B보다 크다면,
-            System.out.println(">");    // ">"를 출력 한다.
+            System.out.println(">");    // ">"를 출력
         } else if (A < B) {    // 그렇지 않고 A가 B보다 작다면
             System.out.println("<");    // "<"를 출력
         } else {
