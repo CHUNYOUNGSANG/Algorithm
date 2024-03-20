@@ -2,7 +2,7 @@ package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class No14681_Quaternary_picking {
+public class No14681QuaternaryPicking {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
 
