@@ -3,7 +3,7 @@ package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class No1330ComparingHeadToHead {    // 제출할 때는 Main 으로 변경해야 함
+public class No1330_ComparingTwoNumbers {    // 제출할 때는 Main 으로 변경해야 함
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
 
