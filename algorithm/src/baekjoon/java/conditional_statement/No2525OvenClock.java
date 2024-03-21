@@ -2,13 +2,23 @@ package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class No2525OvenClock {
+public class No2525OvenClock {  // 제출할 때는 Main 으로 변경해야 함
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int hh = sc.nextInt();
-        int mm = sc.nextInt();
-        int
+        Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
+        int h = sc.nextInt();   // 현재 시간 (시)
+        int m = sc.nextInt();   // 현재 시간 (분)
+        int d = sc.nextInt();   // 요리하는데 필요한 시간 (분)
 
+        int a = h*60 + m + d;   // 입력 받은 시간을 분 단위로 변환 후, 총 소요 시간을 계산
+        h = a / 60; // 시간을 시로 나눔
+        m = a % 60; // 시간을 분으로 나눔
+
+        if (h >= 24) {  // 만약 시간이 24시 이상이라면, 24를 빼서 24시간 형식으로 만듬
+            h = h-24;
+        }
+        System.out.println(h + " " + m);
+
+        sc.close(); // 시스템 자원 누수를 방지하기 위해 Scanner 개체를 닫는다.
     }
 }
 
