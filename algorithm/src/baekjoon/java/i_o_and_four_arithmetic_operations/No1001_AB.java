@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class No1001_AB {    // 백준 제출할 때는 Main 으로 변경해야 함
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
+        int A = sc.nextInt();   // 첫 번째 정수를 입력 받음
+        int B = sc.nextInt();   // 두 번째 정수를 입력 받음
 
-        System.out.println(A - B);
+        System.out.println(A - B);  // 두 정수의 차를 출력
 
-        sc.close();
+        sc.close(); // 시스템 자원 누수를 방지하기 위해 Scanner 개체를 닫는다.
     }
 }
 
