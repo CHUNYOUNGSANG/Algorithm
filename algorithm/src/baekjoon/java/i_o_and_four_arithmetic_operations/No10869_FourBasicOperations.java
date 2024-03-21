@@ -2,19 +2,19 @@ package baekjoon.java.i_o_and_four_arithmetic_operations;
 
 import java.util.Scanner;
 
-public class No10869_FourBasicOperations {
+public class No10869_FourBasicOperations {  // 백준 제출할 때는 Main 으로 변경해야 함
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
+        int A = sc.nextInt();   // 정수 A를 입력 받음
+        int B = sc.nextInt();   // 정수 B를 입력 받음
 
-        System.out.println(A + B);
-        System.out.println(A - B);
-        System.out.println(A * B);
-        System.out.println(A / B);
-        System.out.println(A % B);
+        System.out.println(A + B);  // A와 B의 합을 출력
+        System.out.println(A - B);  // A와 B의 차를 출력
+        System.out.println(A * B);  // A와 B의 곱을 출력
+        System.out.println(A / B);  // A를 B로 나눈 몫을 출력
+        System.out.println(A % B);  // A를 B로 나눈 나머지를 출력
 
-        sc.close();
+        sc.close(); // Scanner를 닫아서 자원을 해제한다.
     }
 }
 
