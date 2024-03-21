@@ -2,7 +2,7 @@ package baekjoon.java.conditional_statement;
 
 import java.util.Scanner;
 
-public class No9498TestResults {    // 제출할 때는 Main 으로 변경해야 함
+public class No9498_TestResults {    // 제출할 때는 Main 으로 변경해야 함
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // 사용자를 입력을 받기 위해 Scanner 객체를 생성
         int a = sc.nextInt();   // 사용자로부터 정수를 입력받아 변수 a에 저장
