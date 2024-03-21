@@ -18,6 +18,7 @@ public class No2884AlarmClock {
         } else {
             System.out.println(hh + " " + (mm - 45));    // 입력된 분이 45 이상인 경우, 시간은 변경 없이 분에서 45를 뺀 값을 출력
         }
+        sc.close();   // 시스템 자원 누수를 방지하기 위해 Scanner 개체를 닫는다.
     }
 
 }
