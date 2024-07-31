@@ -9,6 +9,7 @@ class Solution {
             return s.substring(middle - 1, middle + 1);
         } else {
             return String.valueOf(s.charAt(middle));
+
         }
     }
 }
